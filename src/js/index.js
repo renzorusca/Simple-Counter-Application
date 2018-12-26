@@ -20,12 +20,12 @@ function SimpleCounter (props) {
             <div className="calendar">
                 <i className="far fa-clock"></i>
             </div>
-            <div>{props.dig6 % 10}</div>
+            <div>{props.dig6}</div>
             <div>{props.dig5 % 10}</div>
             <div>{props.dig4 % 10}</div>
             <div>{props.dig3 % 10}</div>
             <div>{props.dig2 % 10}</div>
-            <div>{props.dig1 % 10}</div>npm
+            <div>{props.dig1 % 10}</div>
             
             
         </div>
